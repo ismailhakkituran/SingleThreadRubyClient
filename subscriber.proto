@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package subscriberinfo;
+
+// Optional: Java package and class name for generated code
+option java_package = "com.example.subscriberinfo";
+option java_outer_classname = "SubscriberProto";
+
+message Subscriber {
+  int64 subscriber_id = 1;
+  string name         = 2;
+  string status       = 3;
+}
+
