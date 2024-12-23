@@ -18,7 +18,7 @@ Output should be sth like:
 ~~~shell
 libprotoc 3.12.4
 ~~~
-So you should use 3.xx versions of driver libraries for Ruby. You can check the whole versions of protobuf Ruby drivers [here](https://rubygems.org/gems/google-protobuf/versions) I choose `3.25.5` for protoc compiler compatibility.
+So you should use 3.xx versions of driver libraries for Ruby. You can check the whole versions of protobuf Ruby drivers [here.](https://rubygems.org/gems/google-protobuf/versions) I choose `3.25.5` for protoc compiler compatibility. To download `3.25.5`:
 ~~~shell
 $> gem install google-protobuf -v 3.25.5
 ~~~
@@ -33,7 +33,7 @@ Output should be sth like:
 3.25.5
 => nil
 ~~~
-Use protobuf compiler to generate specific programming language classes. Compile the `subscriber.proto` file in `$PROJECTDIR/src/main/proto`
+Use protobuf compiler to generate specific programming language classes. Compile the `subscriber.proto` file in `$PROJECTDIR/`
 ~~~shell
 $> protoc --ruby_out=. student.proto
 ~~~
